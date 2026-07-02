@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OyaMicroCreditCLRRS", "src\OyaMicroCreditCLRRS.csproj", "{54099115-8353-4F29-AC7F-080A9D88F18A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C94020E3-F8F9-4B98-966E-C42BAE7D0932}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OyaMicroCreditCLRRS.Tests", "tests\OyaMicroCreditCLRRS.Tests\OyaMicroCreditCLRRS.Tests.csproj", "{02A6B041-0189-44F9-85B0-329A8F71D157}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54099115-8353-4F29-AC7F-080A9D88F18A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54099115-8353-4F29-AC7F-080A9D88F18A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54099115-8353-4F29-AC7F-080A9D88F18A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54099115-8353-4F29-AC7F-080A9D88F18A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02A6B041-0189-44F9-85B0-329A8F71D157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02A6B041-0189-44F9-85B0-329A8F71D157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02A6B041-0189-44F9-85B0-329A8F71D157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02A6B041-0189-44F9-85B0-329A8F71D157}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02A6B041-0189-44F9-85B0-329A8F71D157} = {C94020E3-F8F9-4B98-966E-C42BAE7D0932}
+	EndGlobalSection
+EndGlobal
